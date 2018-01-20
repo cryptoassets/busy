@@ -20,7 +20,7 @@ const HeroBanner = ({ visible, location, onCloseClick }) => {
             <h1>
               <FormattedMessage
                 id="hero"
-                defaultMessage="Ensuring compensation for the creators of value"
+                defaultMessage="Support our Project By Following @power4nepal"
               />
             </h1>
             <div className="HeroBanner__container__content__buttons">
