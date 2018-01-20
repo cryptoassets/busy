@@ -48,7 +48,7 @@ function makePlugins(options) {
         SENTRY_PUBLIC_DSN: isDevelopment ? null : JSON.stringify(process.env.SENTRY_PUBLIC_DSN),
         STEEMCONNECT_CLIENT_ID: JSON.stringify(process.env.STEEMCONNECT_CLIENT_ID || 'power.nepal'),
         STEEMCONNECT_REDIRECT_URL: JSON.stringify(
-          process.env.STEEMCONNECT_REDIRECT_URL || 'https://power4nepal.herokuapp.com/',
+          process.env.STEEMCONNECT_REDIRECT_URL || 'https://power4nepal.herokuapp.com/callback',
         ),
         STEEMCONNECT_HOST: JSON.stringify(
           process.env.STEEMCONNECT_HOST || 'https://v2.steemconnect.com',
